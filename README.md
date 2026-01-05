@@ -2,9 +2,7 @@
 
 ## Description
 
-A classic server-based, multiplayer battleship game implemented in C for Linux.
-The game runs as a TCP server and allows multiple players to connect and play against each other in real time using a text-based protocol.
-Each player registers with a name and ship placement, then guesses coordinates to hit opponent ships. All game events are broadcast to connected players.
+A classic server-based, multiplayer battleship game implemented in C for Linux. The game runs as a TCP server and allows multiple players to connect and play against each other in real time using a text-based protocol. Each player registers with a name and ship placement, then guesses coordinates to hit opponent ships. All game events are broadcast to connected players.
 
 ## Tech Stack
 
@@ -39,7 +37,7 @@ This project does not include a graphical client, so players can connect using t
 
 `nc localhost <port>` <br>
 
-Example: `nc localhost 8080`
+Example: `nc localhost 8080` <br>
 Note: Each terminal represents one player.
 
 ## Client Protocol

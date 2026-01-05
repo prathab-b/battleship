@@ -8,8 +8,8 @@ Each player registers with a name and ship placement, then takes turns bombing c
 
 ## Tech Stack
 
-**Language:** C
-**Platform:** Linux
+**Language:** C <br>
+**Platform:** Linux <br>
 **Networking:** TCP Sockets
 
 ## Features

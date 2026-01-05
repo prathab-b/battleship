@@ -22,15 +22,21 @@ Each player registers with a name and ship placement, then takes turns bombing c
 
 ## How To Run
 
+To create the battleship server, run the command:
+
 `gcc battleship.c -o battleship`
 
-./server <port> <br>
-Example: ./server 8080 <br>
+Followed by:
+
+`./server <port>` <br>
+
+Example: `./server 8080` <br>
 Note: If a port does not work, another port can be used.
 
 ## Connecting A Player (Terminal-Based)
 
 This project does not include a graphical client, so players can connect using terminal tools (e.g. netcat), as follows:
 
-nc localhost <port> <br>
-Example: nc localhost 8080
+`nc localhost <port>` <br>
+
+Example: `nc localhost 8080`

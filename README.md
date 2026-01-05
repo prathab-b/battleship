@@ -22,7 +22,7 @@ Each player registers with a name and ship placement, then takes turns bombing c
 
 ## How To Run
 
-gcc battleship.c -o battleship
+`gcc battleship.c -o battleship`
 
 ./server <port> <br>
 Example: ./server 8080 <br>

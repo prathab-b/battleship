@@ -64,13 +64,13 @@ Example: `BOMB 3 7`
 
 The server will respond in response to the given command with one of the following:
 
-- WELCOME - successful registration
-- JOIN <player> - a new player has joined
-- HIT <attacker> <x> <y> <defender> - a successful hit
-- MISS <attacker> <x> <y> - a missed attack
-- GG <player> - a player’s ship has been destroyed and they are eliminated
-- INVALID - invalid command or parameters
-- TAKEN - username already in use
+- `WELCOME` - successful registration
+- `JOIN <player>` - a new player has joined
+- `HIT <attacker> <x> <y> <defender>` - a successful hit
+- `MISS <attacker> <x> <y>` - a missed attack
+- `GG <player>` - a player’s ship has been destroyed and they are eliminated
+- `INVALID` - invalid command or parameters
+- `TAKEN` - username already in use
 
 ## Future Improvements
 

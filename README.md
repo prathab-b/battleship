@@ -26,9 +26,9 @@ To create the battleship server, run the command:
 
 Followed by:
 
-`./server <port>` <br>
+`./battleship <port>` <br>
 
-Example: `./server 8080` <br>
+Example: `./battleship 8080` <br>
 Note: If a port does not work, another port can be used.
 
 ## Connecting A Player (Terminal-Based)

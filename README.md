@@ -31,7 +31,7 @@ Followed by:
 Example: `./battleship 8080` <br>
 Note: If a port does not work, another port can be used.
 
-## Connecting A Player (Terminal-Based)
+## Connecting Players (Terminal-Based)
 
 This project does not include a graphical client, so players can connect using terminal tools (e.g. netcat), as follows:
 
